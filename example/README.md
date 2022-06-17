@@ -12,3 +12,5 @@ Users can run the **Tropical Nights Climate Index.ipynb** notebook in a Jupyter-
 ```
 python W3C-PROV_second-level.py --input Ophidia_logs --output W3C-PROV_second-level_Output
 ```
+
+![alt text](https://github.com/OphidiaBigData/ophidia-provenance/blob/main/example/W3C-PROV_second-level_Output/W3C-PROV_second-level.png?raw=true)
