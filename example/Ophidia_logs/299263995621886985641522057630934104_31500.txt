@@ -1,0 +1,10 @@
+slurmstepd: error: couldn't chdir to `/home/ophidia': Permission denied: going to /tmp instead
+Ophidia Analytics Framework, version 1.6.1
+Copyright (C) 2012-2021 CMCC Foundation - www.cmcc.it
+This program comes with ABSOLUTELY NO WARRANTY; for details type `oph_analytics_framework -x'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `oph_analytics_framework -z' for details.
+[Mon Jun 13 15:36:44 2022][INFO][oph_analytics_framework.c][93]	Task string:
+operator=oph_reduce2;sessionid=https://ophidialab.cmcc.it/ophidia/sessions/299263995621886985641522057630934104/experiment;workflowid=13261;markerid=31500;username=fantonio;userrole=31;parentid=5001973;taskindex=0;lighttaskindex=-1;exec_mode=sync;ncores=1;schedule=0;dim=time;concept_level=y;midnight=24;operation=sum;order=2;missingvalue=-;grid=-;container=-;description=-;check_grid=no;nthreads=1;save=yes;cube=https://ophidialab.cmcc.it/ophidia/13537/1189022;cwd=/299263995621886985641522057630934104;cdd=/home/fantonio;host_partition=auto;jobid=5001974;
+PID of output datacube is: https://ophidialab.cmcc.it/ophidia/13537/1189023
+Proc 0: Total execution:	 Time 0,503692 sec

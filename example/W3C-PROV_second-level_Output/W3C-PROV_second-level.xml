@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:document xmlns:ophidia="http://ophidia.cmcc.it/" xmlns:operator="https://ophidia.cmcc.it/documentation/users/operators/index.html" xmlns:file="https://www.wcrp-climate.org/wgcm-cmip" xmlns:datacube="" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:activity prov:id="operator:oph_apply5001972">
+    <prov:startTime>2022-06-13T15:36:32</prov:startTime>
+    <prov:endTime>2022-06-13T15:36:44.515873</prov:endTime>
+    <prov:type xsi:type="xsd:QName">ophidia:Operator</prov:type>
+  </prov:activity>
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022"/>
+    <prov:usedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021"/>
+  </prov:wasDerivedFrom>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022"/>
+    <prov:activity prov:ref="operator:oph_apply5001972"/>
+  </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="operator:oph_apply5001972"/>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021"/>
+  </prov:used>
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:activity prov:id="operator:oph_reduce25001974">
+    <prov:startTime>2022-06-13T15:36:44</prov:startTime>
+    <prov:endTime>2022-06-13T15:36:44.503692</prov:endTime>
+    <prov:type xsi:type="xsd:QName">ophidia:Operator</prov:type>
+  </prov:activity>
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023"/>
+    <prov:usedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022"/>
+  </prov:wasDerivedFrom>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023"/>
+    <prov:activity prov:ref="operator:oph_reduce25001974"/>
+  </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="operator:oph_reduce25001974"/>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189022"/>
+  </prov:used>
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:activity prov:id="operator:oph_exportnc25001976">
+    <prov:startTime>2022-06-13T15:36:47</prov:startTime>
+    <prov:endTime>2022-06-13T15:36:47.073870</prov:endTime>
+    <prov:type xsi:type="xsd:QName">ophidia:Operator</prov:type>
+  </prov:activity>
+  <prov:entity prov:id="file:/home/fantonio/Tropical_Nights_2090-2100.nc">
+    <prov:label>Output NetCDF filename</prov:label>
+    <prov:type xsi:type="xsd:QName">prov:Data</prov:type>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="file:/home/fantonio/Tropical_Nights_2090-2100.nc"/>
+    <prov:usedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023"/>
+  </prov:wasDerivedFrom>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="file:/home/fantonio/Tropical_Nights_2090-2100.nc"/>
+    <prov:activity prov:ref="operator:oph_exportnc25001976"/>
+  </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="operator:oph_exportnc25001976"/>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189023"/>
+  </prov:used>
+  <prov:entity prov:id="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021">
+    <prov:label>Ophidia Datacube PID</prov:label>
+    <prov:type xsi:type="xsd:QName">ophidia:Datacube</prov:type>
+  </prov:entity>
+  <prov:activity prov:id="operator:oph_importnc25001970">
+    <prov:startTime>2022-06-13T15:36:01</prov:startTime>
+    <prov:endTime>2022-06-13T15:36:19.769199</prov:endTime>
+    <prov:type xsi:type="xsd:QName">ophidia:Operator</prov:type>
+  </prov:activity>
+  <prov:entity prov:id="file:/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc">
+    <prov:label>Input filename</prov:label>
+    <prov:type xsi:type="xsd:QName">prov:Data</prov:type>
+    <prov:value xsi:type="xsd:string">/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc</prov:value>
+  </prov:entity>
+  <prov:wasDerivedFrom>
+    <prov:generatedEntity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021"/>
+    <prov:usedEntity prov:ref="file:/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc"/>
+  </prov:wasDerivedFrom>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="datacube:https://ophidialab.cmcc.it/ophidia/13537/1189021"/>
+    <prov:activity prov:ref="operator:oph_importnc25001970"/>
+  </prov:wasGeneratedBy>
+  <prov:used>
+    <prov:activity prov:ref="operator:oph_importnc25001970"/>
+    <prov:entity prov:ref="file:/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc"/>
+  </prov:used>
+</prov:document>

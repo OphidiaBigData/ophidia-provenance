@@ -1,0 +1,59 @@
+@prefix operator: <https://ophidia.cmcc.it/documentation/users/operators/index.html> .
+@prefix ophidia: <http://ophidia.cmcc.it/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.wcrp-climate.org/wgcm-cmip/home/fantonio/Tropical_Nights_2090-2100.nc> a prov:Data,
+        prov:Entity ;
+    rdfs:label "Output NetCDF filename"^^xsd:string ;
+    prov:wasDerivedFrom <https://ophidialab.cmcc.it/ophidia/13537/1189023> ;
+    prov:wasGeneratedBy operator:oph_exportnc25001976 .
+
+operator:oph_apply5001972 a ophidia:Operator,
+        prov:Activity ;
+    prov:endedAtTime "2022-06-13T15:36:44.515873"^^xsd:dateTime ;
+    prov:startedAtTime "2022-06-13T15:36:32"^^xsd:dateTime ;
+    prov:used <https://ophidialab.cmcc.it/ophidia/13537/1189021> .
+
+operator:oph_exportnc25001976 a ophidia:Operator,
+        prov:Activity ;
+    prov:endedAtTime "2022-06-13T15:36:47.073870"^^xsd:dateTime ;
+    prov:startedAtTime "2022-06-13T15:36:47"^^xsd:dateTime ;
+    prov:used <https://ophidialab.cmcc.it/ophidia/13537/1189023> .
+
+operator:oph_importnc25001970 a ophidia:Operator,
+        prov:Activity ;
+    prov:endedAtTime "2022-06-13T15:36:19.769199"^^xsd:dateTime ;
+    prov:startedAtTime "2022-06-13T15:36:01"^^xsd:dateTime ;
+    prov:used <https://www.wcrp-climate.org/wgcm-cmip/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc> .
+
+operator:oph_reduce25001974 a ophidia:Operator,
+        prov:Activity ;
+    prov:endedAtTime "2022-06-13T15:36:44.503692"^^xsd:dateTime ;
+    prov:startedAtTime "2022-06-13T15:36:44"^^xsd:dateTime ;
+    prov:used <https://ophidialab.cmcc.it/ophidia/13537/1189022> .
+
+<https://ophidialab.cmcc.it/ophidia/13537/1189021> a ophidia:Datacube,
+        prov:Entity ;
+    rdfs:label "Ophidia Datacube PID"^^xsd:string ;
+    prov:wasDerivedFrom <https://www.wcrp-climate.org/wgcm-cmip/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc> ;
+    prov:wasGeneratedBy operator:oph_importnc25001970 .
+
+<https://ophidialab.cmcc.it/ophidia/13537/1189022> a ophidia:Datacube,
+        prov:Entity ;
+    rdfs:label "Ophidia Datacube PID"^^xsd:string ;
+    prov:wasDerivedFrom <https://ophidialab.cmcc.it/ophidia/13537/1189021> ;
+    prov:wasGeneratedBy operator:oph_apply5001972 .
+
+<https://ophidialab.cmcc.it/ophidia/13537/1189023> a ophidia:Datacube,
+        prov:Entity ;
+    rdfs:label "Ophidia Datacube PID"^^xsd:string ;
+    prov:wasDerivedFrom <https://ophidialab.cmcc.it/ophidia/13537/1189022> ;
+    prov:wasGeneratedBy operator:oph_reduce25001974 .
+
+<https://www.wcrp-climate.org/wgcm-cmip/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc> a prov:Data,
+        prov:Entity ;
+    rdfs:label "Input filename"^^xsd:string ;
+    prov:value "/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc"^^xsd:string .
+

@@ -1,0 +1,10 @@
+slurmstepd: error: couldn't chdir to `/home/ophidia': Permission denied: going to /tmp instead
+Ophidia Analytics Framework, version 1.6.1
+Copyright (C) 2012-2021 CMCC Foundation - www.cmcc.it
+This program comes with ABSOLUTELY NO WARRANTY; for details type `oph_analytics_framework -x'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `oph_analytics_framework -z' for details.
+[Mon Jun 13 15:36:01 2022][INFO][oph_analytics_framework.c][93]	Task string:
+operator=oph_importnc2;sessionid=https://ophidialab.cmcc.it/ophidia/sessions/299263995621886985641522057630934104/experiment;workflowid=13259;markerid=31496;username=fantonio;userrole=31;parentid=5001969;taskindex=0;lighttaskindex=-1;exec_mode=sync;ncores=4;nthreads=1;container=-;host_partition=auto;ioserver=ophidiaio_memory;import_metadata=yes;check_compliance=no;schedule=0;nhost=0;nfrag=4;run=yes;measure=tasmin;src_path=/public/data/tasmin_day_CMCC-ESM2_ssp585_r1i1p1f1_gn_20900101-21001231.nc;exp_dim=auto;imp_dim=time;subset_dims=none;subset_type=index;subset_filter=all;time_filter=yes;offset=0;exp_concept_level=c;imp_concept_level=d;compressed=no;grid=-;hierarchy=oph_base|oph_base|oph_time;vocabulary=CF;base_time=1900-01-01 00:00:00;units=d;calendar=standard;month_lengths=31,28,31,30,31,30,31,31,30,31,30,31;leap_year=0;leap_month=2;policy=rr;description=Daily Min Temp;check_grid=no;save=yes;cwd=/299263995621886985641522057630934104;cdd=/home/fantonio;cube=https://ophidialab.cmcc.it/ophidia/13537/1189020;jobid=5001970;
+PID of output datacube is: https://ophidialab.cmcc.it/ophidia/13537/1189021
+Proc 0: Total execution:	 Time 18,769199 sec
